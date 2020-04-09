@@ -13,6 +13,9 @@ public class EnemyManager : MonoBehaviour
     private void Start()
     {
         
+        print("怪物1號的mp:" + Monster1.mp);
+        print("怪物2號的裝備:" + Monster2.裝備名稱);
+
         Monster1.mp = 100;
         Monster2.hp = 300;
         Monster1.def = 50;
@@ -21,8 +24,6 @@ public class EnemyManager : MonoBehaviour
         Monster1.key = true;
         Monster2.box = true;
 
-        print("怪物1號的mp:" + Monster1.mp);
-        print("怪物2號的裝備:" + Monster2.裝備名稱);
     }
 
 }
