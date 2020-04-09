@@ -26,7 +26,7 @@ public class Enemy : MonoBehaviour
     [Header("裝備")]
     public string arms;
 
-    public string 皮衣;
+    public string 裝備名稱 = "皮衣";
 
     [Header("其他資料"), Tooltip("怪物是否帶有鑰匙")]
     public bool key = false;

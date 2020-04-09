@@ -22,7 +22,7 @@ public class EnemyManager : MonoBehaviour
         Monster2.box = true;
 
         print("怪物1號的mp:" + Monster1.mp);
-        print("怪物2號的arms:" + Monster2.arms);
+        print("怪物2號的裝備:" + Monster2.裝備名稱);
     }
 
 }
